@@ -1,0 +1,197 @@
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.topsection
+{
+	width: 100%;
+	min-height: 100vh;
+	background-color: white;
+	color: #000;
+    line-height: 24px;
+    direction: ltr;
+    font-weight: 400;
+    letter-spacing: 1.16px;
+}
+
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-color: white;
+}
+.container{
+	width: 95%;
+	display: block;
+	margin:auto;
+	padding-top: 45px;
+}
+.content-section{
+	float: right;
+	width: 57%;
+}
+.image-section{
+	float: left;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.content-section .title h1{
+	font-size: 19px;
+}
+.content-section .title h3 {
+	color: pink;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+.content-section .content p{
+	vertical-align: middle;
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .color-box{
+    position: relative;
+    right: 0;
+    top: 0;
+    background: pink;
+    border: 20px 0 0 20px;
+    height:100%;
+    width: 100%;
+}
+.content-section .content .color-box form{
+	padding: 20px;
+}
+.content-section .content .color-box form div{
+    padding: 10px;
+    size: 100px;
+}
+
+.content-section .content .color-box form a{
+	margin-top: 10px;
+   vertical-align: middle;
+}
+.content-section .content .color-box form p{
+	vertical-align: middle;
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .color-box form p span{
+	vertical-align: middle;
+}
+.content-section .content .returnpolicy{
+	border-color: grey;
+	margin-top: 10px;
+	margin-right: 0px;
+	padding-top: 25px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .returnpolicy div{
+	border-style: solid;
+	align-items: middle;
+	vertical-align: middle;
+	letter-spacing: 0.11px;
+	border-color: #DCDCDC;
+	border-width: 1.2px;
+	margin-top: -1.5px;
+	margin-right: 0px;
+	padding: 13px;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.content-section .content .returnpolicy div img{
+	vertical-align: middle;
+}
+.content-section .content .returnpolicy div span{
+	vertical-align: middle;
+}
+
+
+.content-section .content .button{
+	margin-top: 30px;
+	text-decoration:none;
+	background-color: black;
+	padding:12px 30px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 12px;
+	font-weight: 100;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color:#fff;
+}
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#3d3d3d;
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+ 
